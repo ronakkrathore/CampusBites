@@ -1,0 +1,52 @@
+<nav  id="navmenu" class="navbar navbar-expand-md bg-body-light border-bottom">
+    <div  class="logo"> 
+      <a class="navbar-brand" class="logo d-flex align-items-center me-auto me-xl-0" href="/">
+        <img src="/img/logo.png" alt="logo">
+        <span class="brand-name">CampusBites</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul  class="nav-links" >
+          <li class="nav-item">
+            <a  aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a  href="/#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a  href="/#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a  href="/#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a  href="/#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a  href="/#contact">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="profile" onclick="toggleDropdown()">
+        <a href="#">
+            <img src="assets/img/—Pngtree—avatar icon profile icon member_5247852.png" alt="Profile" class="profile-icon">
+        </a>
+        <div class="dropdown" id="dropdownMenu">
+          <% if (!user) { %>
+            <a href="#" onclick="openLoginModal(event)"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="/signup"><i class="fas fa-user-plus"></i> Sign Up</a>
+          <% } else { %>
+            <a href="/cart"><i class="fas fa-shopping-cart"></i> Your Cart</a>
+            <a href="/orders"><i class="fas fa-list"></i> Your Orders</a>
+            <a href="/payments"><i class="fas fa-wallet"></i> Payments</a>
+            <a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+          <% } %>
+        </div>
+    </div>
+    </div>
+  </nav>
+  
+
+
