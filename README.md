@@ -1,25 +1,25 @@
-#**CampusBites**
+# **CampusBites**
 
 CampusBites is a canteen management system that allows users to register, log in, add items to their cart, and place orders. It features a seamless ordering experience with Razorpay (test mode) for payments and displays previous orders for user reference.
 
-##Features
+## Features
 
-###User Authentication – Secure login and registration using passport.js.
+### User Authentication – Secure login and registration using passport.js.
 
-###Cart Management – Users can add items to their cart and review them before checkout.
+### Cart Management – Users can add items to their cart and review them before checkout.
 
-###Order Processing – Orders are stored in MongoDB and displayed in the Your Orders section.
+### Order Processing – Orders are stored in MongoDB and displayed in the Your Orders section.
 
-###Payment Integration – Razorpay test mode is implemented for payment processing.
+### Payment Integration – Razorpay test mode is implemented for payment processing.
 
-##Tech Stack
+## Tech Stack
 
-###Frontend: EJS, CSS, JavaScript
+### Frontend: EJS, CSS, JavaScript
 
-###Backend: Node.js, Express.js
+### Backend: Node.js, Express.js
 
-###Database: MongoDB
+### Database: MongoDB
 
-###Authentication: Passport.js
+### Authentication: Passport.js
 
-###Payment Gateway: Razorpay (Test Mode)
+### Payment Gateway: ### Razorpay (Test Mode)
