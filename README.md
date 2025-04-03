@@ -1,4 +1,4 @@
-#CampusBites
+CampusBites
 
 CampusBites is a canteen management system that allows users to register, log in, add items to their cart, and place orders. It features a seamless ordering experience with Razorpay (test mode) for payments and displays previous orders for user reference.
 
